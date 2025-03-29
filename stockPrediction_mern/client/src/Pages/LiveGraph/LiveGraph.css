@@ -1,0 +1,94 @@
+
+body {
+    overflow-x: hidden;
+  }
+  .graph_container{
+    background-color: #ffffff;
+    height:70vh;
+    width:99vw;
+    margin-top:4.8rem;
+    
+}
+.loading_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.loading_container img {
+  width: 50%; /* Adjust width as needed */
+  height: 80%; /* Maintain aspect ratio */
+}
+
+.about_stock{
+  background-color: #ffffff;
+}
+
+
+.btn_container {
+  display: flex;
+  justify-content: space-around; /* Distribute space evenly */
+ 
+
+}
+.live_details {
+  display: flex;
+  justify-content: space-around; /* Distribute space evenly */
+ 
+
+}
+
+.btn_container button {
+  flex: 1;
+  margin: 0 3%; /* Space between buttons */
+  padding: 5px;
+  font-size: 16px;
+  
+  border-radius: 5px;
+  background-color: #108554;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.btn_container button:hover {
+  background-color: #0d6a40;
+}.select_container {
+  margin-top: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 10px 0;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-around; /* Distribute buttons evenly */
+  align-items: center;
+  padding: 10px 0;
+}
+
+.select_btn {
+  border: 2px solid #108554; /* Green border for highlighting */
+  border-radius: 8px; /* Rounded corners */
+  padding: 8px 15px;
+  font-size: 18px; /* Slightly smaller font for elegance */
+  font-weight: bold;
+  background-color: #ffffff; /* White background */
+  color: #108554; /* Green text color */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.select_btn:hover {
+  background-color: #108554; /* Green background on hover */
+  color: #ffffff; /* White text on hover */
+  box-shadow: 0px 4px 8px rgba(16, 133, 84, 0.4); /* Glow effect */
+}
+
+.select_btn:active {
+  background-color: #0d6a40; /* Darker green for active state */
+  box-shadow: none; /* Remove shadow on click */
+  transform: scale(0.98); /* Slight shrink effect */
+}

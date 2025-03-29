@@ -1,0 +1,59 @@
+body {
+  overflow-x: hidden;
+}
+
+.stock-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: #f4f4f9; /* Light background for contrast */
+  border-radius: 10px; /* Rounded container edges */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Padding around content */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #16361c; /* Darker color for better contrast */
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px; /* Slight spacing for readability */
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 40%; /* Keep dimensions unchanged */
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 100%;
+  height: 8vh;
+  border: 2px solid #95bb90; /* Softer border width */
+  border-radius: 8px; /* Rounder box edges */
+  background: linear-gradient(135deg, #ffffff, #eaf7e9); /* Light gradient background */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 15px; /* Add consistent padding */
+  font-family: 'Arial', sans-serif;
+  font-size: 14px; /* Improve font size readability */
+  color: #2d3436; /* Neutral text color */
+  transition: transform 0.3s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effects */
+}
+
+.box:hover {
+  transform: translateY(-12px); /* Subtle lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  background: linear-gradient(135deg, #eaf7e9, #d9f4da); /* Highlighted gradient */
+}
+
